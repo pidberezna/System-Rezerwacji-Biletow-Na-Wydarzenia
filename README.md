@@ -38,6 +38,27 @@ cd api
 npm start
 ```
 
+## Konfiguracja plików `.env`
+
+Aby uruchomić aplikację, należy utworzyć pliki `.env` zarówno w katalogu `api/`, jak i `client/`.
+
+### `api/.env`
+
+```env
+EXAMPLE:
+MONGODB_URL=mongodb+srv://USER:PASSWORD@nodeexpressproject.fyxh6.mongodb.net/PROJECT?retryWrites=true&w=majority&appName=PROJECT
+JWT_SECRET=EXAMPLE
+API_PORT=3000
+```
+
+### `client/.env`
+
+Aplikacja korzysta z zewnętrznego API (do geolokalizacji, jak Geoapify), również należy umieścić tam odpowiedni klucz:
+
+```env
+VITE_GEOAPIFY_API_KEY=9a8cd376bb8d49e49f240c01f2c3321b
+```
+
 ## Wykorzystane biblioteki zewnętrzne
 
 ### Frontend
