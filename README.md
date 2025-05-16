@@ -45,7 +45,6 @@ Aby uruchomić aplikację, należy utworzyć pliki `.env` zarówno w katalogu `a
 ### `api/.env`
 
 ```env
-EXAMPLE:
 MONGODB_URL=mongodb+srv://USER:PASSWORD@nodeexpressproject.fyxh6.mongodb.net/PROJECT?retryWrites=true&w=majority&appName=PROJECT
 JWT_SECRET=EXAMPLE
 API_PORT=3000
